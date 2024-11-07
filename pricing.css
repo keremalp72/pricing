@@ -90,6 +90,8 @@ body {
   display: flex;
   flex-direction: column;
   gap: 32px;
+  align-items: center;
+  justify-content: center;
 }
 .plans h1 {
   color: #4a4d60;
@@ -148,6 +150,7 @@ body {
   box-shadow: 0px 20px 40px 0px #d4d2f480;
   border-radius: 10px;
   padding-inline: 29px;
+
 }
 .professional h1 {
   color: white;
@@ -166,6 +169,16 @@ body {
   box-shadow: 0px 20px 40px 0px #d4d2f480;
   border-radius: 10px;
   padding-inline: 29px;
+}
+.dollarsign{
+font-size: 40px;
+font-weight: 700;
+line-height: 48.76px;
+letter-spacing: -1.2000000476837158px;
+vertical-align:middle
+}
+.miktar{
+  font-size: 72px !important;
 }
 @media screen and (min-width: 1024px) {
   .container {
@@ -279,6 +292,7 @@ body {
     box-shadow: 0px 20px 40px 0px #d4d2f480;
     border-radius: 10px;
     padding-inline: 29px;
+    padding-block: 30px;
   }
   .professional h1 {
     color: white;
